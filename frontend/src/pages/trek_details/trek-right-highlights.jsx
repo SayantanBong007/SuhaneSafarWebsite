@@ -3,7 +3,7 @@ import React from "react";
 const TrekHighlights = () => {
     return (
         <div className="w-100% pt-18 cursor-default">
-            <div className="px-16 gap-40 py-10 w-11/12 bg-sky-100 mx-auto mt-10">
+            <div className=" px-8 lg:px-16 gap-40 py-10 w-11/12 bg-sky-100 mx-auto mt-10">
                 <div className="text-4xl font-semibold">
                     Trek Highlights
                 </div>
@@ -25,7 +25,7 @@ const TrekHighlights = () => {
 
                 </div>
                 <div className="w-full flex pb-5 justify-center">
-                    <button className="bg-black text-2xl px-10 text-white py-3 rounded-2xl mt-12 font-semibold hover:bg-gray-800 transition duration-300">
+                    <button className="bg-black text-2xl px-10 text-white py-3 rounded-2xl mt-12 font-semibold hover:bg-gray-800 transition-colors duration-300">
                         Book This Trek
                     </button>
                 </div>
