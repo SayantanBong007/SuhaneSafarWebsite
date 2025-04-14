@@ -5,7 +5,7 @@ import "./track-first.css";
 const TrekFirst = () => {
     return (
         <div className="trek-first-bg cursor-default w-100% h-100% text-white">
-            <div className="mx-auto w-11/12">
+            <div className="mx-auto w-10/12 ">
                 <div className="pt-64 w-full">
                     <div className="pb-0">
                         <span className="trek-first-yellow md:text-xl lg:text-2xl">Trek</span>
@@ -13,7 +13,7 @@ const TrekFirst = () => {
                     </div>
                 </div>
 
-                <div className=" w-[343px] h-[78.4px] flex items-center pt-1 text-3xl md:text-4xl lg:text-5xl font-semibold">
+                <div className=" w-[343px] h-[78.4px] flex items-center pt-1 text-4xl md:text-5xl lg:text-6xl font-semibold">
                     <div>
                         Manali Trek
                     </div>
@@ -37,7 +37,7 @@ const TrekFirst = () => {
                     </div>
                     <div className="flex items-center gap-2">
                         <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.690936 16.1069C0.584958 16.2803 0.709764 16.5028 0.912977 16.5028H22.8202C23.0081 16.5028 23.134 16.3097 23.0584 16.1378L16.3123 0.805815C16.2195 0.594718 15.9181 0.599831 15.8325 0.813973L12.9143 8.10939C12.8798 8.19565 12.8939 8.29376 12.9513 8.36688L15.1341 11.145C15.578 11.71 15.4799 12.5279 14.9148 12.9719C14.3497 13.4158 13.5319 13.3177 13.0879 12.7526L7.49898 5.63955C7.3869 5.49695 7.16691 5.50983 7.07231 5.66466L0.690936 16.1069Z" fill="#F1C40F" />
+                            <path fillRule="evenodd" clipRule="evenodd" d="M0.690936 16.1069C0.584958 16.2803 0.709764 16.5028 0.912977 16.5028H22.8202C23.0081 16.5028 23.134 16.3097 23.0584 16.1378L16.3123 0.805815C16.2195 0.594718 15.9181 0.599831 15.8325 0.813973L12.9143 8.10939C12.8798 8.19565 12.8939 8.29376 12.9513 8.36688L15.1341 11.145C15.578 11.71 15.4799 12.5279 14.9148 12.9719C14.3497 13.4158 13.5319 13.3177 13.0879 12.7526L7.49898 5.63955C7.3869 5.49695 7.16691 5.50983 7.07231 5.66466L0.690936 16.1069Z" fill="#F1C40F" />
                             <path d="M22.8195 17.1536H0.912232V15.8524H22.8195V17.1536ZM16.9071 0.543989L23.6531 15.876L22.4622 16.3999L15.7161 1.06801L16.9071 0.543989ZM12.3096 7.86795L15.2277 0.572548L16.4358 1.05578L13.5176 8.35119L12.3096 7.86795ZM13.4621 7.96514L15.6449 10.7432L14.6219 11.5471L12.4391 8.76899L13.4621 7.96514ZM15.6449 10.7432C16.3109 11.5908 16.1636 12.8178 15.316 13.4837L14.5122 12.4606C14.7946 12.2386 14.8438 11.8295 14.6219 11.5471L15.6449 10.7432ZM15.316 13.4837C14.4685 14.1496 13.2415 14.0023 12.5755 13.1548L13.5986 12.3509C13.8206 12.6334 14.2297 12.6826 14.5122 12.4606L15.316 13.4837ZM12.5755 13.1548L6.98669 6.04166L8.00979 5.23779L13.5986 12.3509L12.5755 13.1548ZM0.135059 15.7678L6.51644 5.32556L7.6267 6.00406L1.24531 16.4463L0.135059 15.7678ZM13.5176 8.35119C13.5694 8.22186 13.5483 8.0747 13.4621 7.96514L12.4391 8.76899C12.2382 8.51332 12.1888 8.16994 12.3096 7.86795L13.5176 8.35119ZM6.98669 6.04166C7.15481 6.2557 7.48479 6.23618 7.6267 6.00406L6.51644 5.32556C6.84755 4.78375 7.6175 4.7385 8.00979 5.23779L6.98669 6.04166ZM15.7161 1.06801C15.8555 1.38467 16.3074 1.37699 16.4358 1.05578L15.2277 0.572548C15.5276 -0.17695 16.5819 -0.194866 16.9071 0.543989L15.7161 1.06801ZM0.912232 17.1536C0.200962 17.1536 -0.235832 16.3747 0.135059 15.7678L1.24531 16.4463C1.40426 16.1862 1.21706 15.8524 0.912232 15.8524V17.1536ZM22.8195 15.8524C22.5376 15.8524 22.3487 16.1419 22.4622 16.3999L23.6531 15.876C23.918 16.4779 23.4771 17.1536 22.8195 17.1536V15.8524Z" fill="#F1C40F" />
                         </svg>
 
@@ -51,26 +51,24 @@ const TrekFirst = () => {
                     </div>
                 </div>
 
-                <div className="md:text-xl pt-6 lg:text-2xl w-100% md:w-[70%] lg:w-[52%]">
+                <div className="md:text-xl pt-6 lg:text-2xl w-100% md:w-[70%] lg:w-[55%]">
                     <div>
                         Embark on challenging trek through Manali Region, featuring high mountain passes, alpine meadows, and breadhtaking landscapes.
                     </div>
                 </div>
-                <div className="flex  md:text-xl lg:text-2xl pt-20 pb-20 items-center gap-4 h-24">
+                <div className="flex flex-wrap md:text-xl lg:text-2xl pt-14 pb-64 sm:pb-44 md:pb-36 items-center gap-6 md:gap-10 h-24">
                     <div className="cursor-pointer bg-black hover:bg-gray-700 font-semibold p-4 px-8   rounded-xl shadow-md transition-colors duration-300">
-                        ₹5000 - Book Now
+                        ₹5000 Book Now
                     </div>
 
-                    <div className="cursor-pointer border-2 p-3 px-8 border-gray-500  hover:bg-gray-700 text-white font-medium  rounded-xl shadow-md">
+                    <div className="cursor-pointer border-2 p-3 px-8 border-gray-500  hover:bg-gray-700 text-white font-medium  rounded-xl shadow-md transition-colors duration-300">
                         Add to Wishlist
                     </div>
 
-                    <div className="cursor-pointer bg-gray-800 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded-xl shadow-md">
-                        🔗 Share
+                    <div className="cursor-pointer border-2 p-3 px-8 border-gray-500 hover:bg-gray-700 text-white font-medium rounded-xl shadow-md transition-colors duration-300">
+                        Share
                     </div>
                 </div>
-
-
             </div>
         </div>
 

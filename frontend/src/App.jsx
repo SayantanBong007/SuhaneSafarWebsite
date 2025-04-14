@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import axios from "axios";
 import "./App.css";
-import Trek from "./pages/trek/trek"
+import Trek from "./pages/trek_details/trek"
 
 function App() {
   const [message, setMessage] = useState("");
@@ -31,7 +31,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/trek" element={<Trek />} />
+        <Route path="/trek_details" element={<Trek />} />
       </Routes>
     </Router>
   );
