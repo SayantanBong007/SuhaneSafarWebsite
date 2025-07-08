@@ -9,7 +9,7 @@ import Reviews from "../components/Reviews";
 import Footer from "../components/Footer";
 
 const Home = () => (
-  <div>
+  <div className="min-h-screen">
     <Navbar />
     <HeroSection />
     <UpcomingAdventures />
