@@ -1,35 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-    background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
-}
-
-body::-webkit-scrollbar {
-    width: 6px;               /* width of the entire scrollbar */
-}
-
-body::-webkit-scrollbar-track {
-background: #000;        /* color of the tracking area */
-}
-
-body::-webkit-scrollbar-thumb {
-background-color: #303030;    /* color of the scroll thumb */
-border-radius: 20px;       /* roundness of the scroll thumb */
-/* border: 3px solid orange;  creates padding around scroll thumb */
-}
-
-
-
-.container-scrollbar::-webkit-scrollbar{
-    width: 6px;               /* width of the entire scrollbar */
-}
-.container-scrollbar::-webkit-scrollbar-track {
-    background: #cacaca;        /* color of the tracking area */
-}
-.container-scrollbar::-webkit-scrollbar-thumb {
-    background-color: #a8a8a8;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
+*{
+    margin: 0;
+    padding: 0;
 }

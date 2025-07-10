@@ -5,7 +5,7 @@ const HeroSection = () => (
     {/* Hero content goes here */}
     <h1>Start Your Safar Today</h1>
     <p>Adventure | Community | Connection</p>
-    <button>Explore Trips</button>
+    <butto>Explore Trips</butto
   </section>
 );
 
